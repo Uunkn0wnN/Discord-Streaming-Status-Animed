@@ -44,7 +44,9 @@ def Init():
 async def ready():
   await bot.wait_until_ready()
 
-  statuses = ["Live Lofi", f"Lofi Live"]
+  statuses = ["watching 
+
+ 5 accounts ┃ 95 servers ┃ https://github.com/Uunkn0wnN", f"https://discord.gg/UFTXkxRrWT"]
 
   while not bot.is_closed():
   
@@ -52,7 +54,7 @@ async def ready():
 
        await bot.change_presence(status= discord.Status.do_not_disturb, activity = discord.Streaming(name = status, url = "https://www.twitch.tv/Discord"))
 
-       await asyncio.sleep(300)
+       await asyncio.sleep(5)
 
 
 bot.loop.create_task(ready())
